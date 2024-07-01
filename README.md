@@ -1,4 +1,4 @@
-# minecraft_player_motion_manipulator
+# Minecraft_player_motion_manipulator-Version 1.21
 a completely vanilla and resourcepack free datapack which enables almost perfect player motion manipulation
 # How to use
 **Facing Motion:**    
