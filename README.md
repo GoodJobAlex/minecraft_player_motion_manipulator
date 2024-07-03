@@ -21,8 +21,8 @@ Apply:
 set up:       
 **scoreboard players set launch_strength motion_library.variables 10** -> the maximum motion that can be applied. As this number increase lag will also increase    
 **scoreboard players set launch_power motion_library.variables 1000** -> percentage of the maximum that needed to be applied, 10000 is 100%.    
-**scoreboard players set x_facing motion_library.variables 1000** -> x_facing    
-**scoreboard players set y_facing motion_library.variables 1000** -> y_facing    
+**scoreboard players set x_rotate motion_library.variables 1000** -> x_facing   The number needs to be multiplied by 10000 
+**scoreboard players set y_rotate motion_library.variables 1000** -> y_facing    
 Apply:    
 **execute as target at @s run function manipulation:api/vector_launch**     
 (this can be replaced with facing launch and execute rotated, but this just provides a easier way if you are using scoreboards)      
