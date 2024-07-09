@@ -11,8 +11,7 @@ execute positioned ~ ~1000000 ~ anchored eyes positioned ^ ^ ^-0.01 run function
 
 tp @s ~ ~ ~
 
-function manipulation:attribute_functions/remove_attribute
-
+attribute @s minecraft:generic.explosion_knockback_resistance modifier remove motion_library.motion_reduction
 
 
 
