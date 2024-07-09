@@ -12,6 +12,5 @@ execute positioned ~ ~1000000 ~ run function manipulation:launch_at_given_facing
 
 tp @s ~ ~ ~
 
-function manipulation:attribute_functions/remove_attribute
-
+attribute @s minecraft:generic.explosion_knockback_resistance modifier remove motion_library.motion_reduction
 return 1

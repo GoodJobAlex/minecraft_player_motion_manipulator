@@ -19,8 +19,7 @@ execute if score z_motion motion_library.variables matches 1.. run function mani
 
 tp @s ~ ~ ~
 
-function manipulation:attribute_functions/remove_attribute
-
+attribute @s minecraft:generic.explosion_knockback_resistance modifier remove motion_library.motion_reduction
 
 
 return 1
