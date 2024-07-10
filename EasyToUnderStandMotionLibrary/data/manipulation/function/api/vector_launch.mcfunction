@@ -6,11 +6,14 @@ execute store result storage motion_library:storage position.y_rotate double 0.0
 
 function manipulation:attribute_functions/prepare_attributes
 
+function manipulation:set_gamemode
+
 tp @s ~ ~1000000 ~
 
 execute positioned ~ ~1000000 ~ run function manipulation:launch_at_given_facing with storage motion_library:storage position
 
 tp @s ~ ~ ~
 
+function manipulation:reset_gamemode
+
 attribute @s minecraft:generic.explosion_knockback_resistance modifier remove motion_library.motion_reduction
-return 1
