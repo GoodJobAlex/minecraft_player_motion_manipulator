@@ -1,5 +1,6 @@
 # Minecraft_player_motion_manipulator-Version 1.21
 a completely vanilla and resourcepack free datapack which enables almost perfect player motion manipulation
+**Hard coding the summon_launch function is greatly encouraged, use multiple lines of execute summon instead of a recursive function is more efficient**
 # How to use
 **Facing Motion:**    
 set up:     
